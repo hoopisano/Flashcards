@@ -1,4 +1,4 @@
-## State SLogans Flashcards
+## State Slogans Flashcards
 
 ## Lab 1
 
