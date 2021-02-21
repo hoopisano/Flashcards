@@ -16,31 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7oE-gN-d44">
-                                <rect key="frame" x="45" y="347" width="325" height="203"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MOm-hF-pGi">
+                                <rect key="frame" x="51" y="202" width="313" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Empire State" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNf-Tx-JmY">
-                                        <rect key="frame" x="0.0" y="0.0" width="325" height="200"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Empire State" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDR-LN-Icw">
+                                        <rect key="frame" x="0.0" y="0.0" width="313" height="189"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is New York's state slogan?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oeA-rU-hKd">
-                                        <rect key="frame" x="0.0" y="-3" width="325" height="203"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What's the state motto of New York?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="np7-8P-IJs">
+                                        <rect key="frame" x="0.0" y="0.0" width="313" height="192"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Aj2-9I-jHa" appends="YES" id="tE4-s2-FiP"/>
+                                    <outletCollection property="gestureRecognizers" destination="Wva-FI-j9f" appends="YES" id="kt4-YT-Pvq"/>
                                 </connections>
                             </view>
                         </subviews>
@@ -48,24 +48,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="Answer" destination="tNf-Tx-JmY" id="otE-Q3-B1L"/>
-                        <outlet property="Question" destination="oeA-rU-hKd" id="uFI-xh-AdX"/>
-                        <outlet property="card" destination="7oE-gN-d44" id="98t-GA-4NV"/>
+                        <outlet property="backLabel" destination="PDR-LN-Icw" id="9UH-bL-afQ"/>
+                        <outlet property="frontLabel" destination="np7-8P-IJs" id="nl3-y8-muV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="Aj2-9I-jHa">
+                <tapGestureRecognizer id="Wva-FI-j9f">
                     <connections>
-                        <action selector="didTapFlashcard:" destination="BYZ-38-t0r" id="yB8-Od-5Rk"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="GM1-1b-wKt">
-                    <connections>
-                        <action selector="didTapAnswer:" destination="BYZ-38-t0r" id="CGM-35-ccM"/>
+                        <action selector="didTapOnFlashcard:" destination="BYZ-38-t0r" id="VY7-Ur-eHT"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="545" y="-758"/>
+            <point key="canvasLocation" x="655.07246376811599" y="-762.72321428571422"/>
         </scene>
     </scenes>
     <resources>
