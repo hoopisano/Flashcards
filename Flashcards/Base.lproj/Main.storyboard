@@ -55,7 +55,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Wva-FI-j9f">
                     <connections>
-                        <action selector="didTapOnFlashcard:" destination="BYZ-38-t0r" id="VY7-Ur-eHT"/>
+                        <action selector="didTapFlashcard:" destination="BYZ-38-t0r" id="eLd-PT-RG4"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
