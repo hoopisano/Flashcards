@@ -2,12 +2,12 @@
 
 ## Lab 1
 
-### Use this app to teach yourself all the state slogans. 
-### You can rule trivia night!
+### Use this app to learn all the state mottos. 
+### You'll rule trivia night!
 
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
+
 
 <img src="https://github.com/hoopisano/Flashcards/raw/main/Lab1Walkthrough.gif" width=200><br>
 
