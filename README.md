@@ -2,8 +2,8 @@
 
 ## Lab 1
 
-### Use this app to learn all the state mottos. 
-### You'll rule trivia night!
+### Use this app to learn all the state mottos. You'll rule trivia night!
+###
 
 
 ### App Walk-though
