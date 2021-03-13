@@ -1,4 +1,3 @@
-//
 //  ViewController.swift
 //  Flashcards
 //
@@ -8,7 +7,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
     
     @IBOutlet weak var backLabel: UILabel!
     @IBOutlet weak var frontLabel: UILabel!
@@ -50,7 +48,16 @@ class ViewController: UIViewController {
 
     @IBAction func didTapOnFlaschcard(_ sender: Any) {
     }
+    
+    func updateFlashcard(question: String, answer: String) {
+    }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let navigationController = segue.destination as! UINavigationController
+        let creationController = navigationController.topViewController as! CreationViewController
+        creationController.flashcardsController = self
+    }
+    
     @IBAction func didTapOptionOne(_ sender: Any) {
         btnOptionOne.isHidden = true
     }
